@@ -1,0 +1,42 @@
+/* Design Tokens：换皮只改这里 */
+:root {
+  --color-bg: #0f1a14;
+  --color-felt: #1f6b43;
+  --color-felt-edge: #5b3a1e;
+  --color-felt-shadow: #134a2d;
+  --color-surface: #1c2621;
+  --color-surface-2: #26332c;
+  --color-text: #eef3ef;
+  --color-text-dim: #9db0a4;
+  --color-accent: #f2c14e;
+  --color-primary: #2f9e66;
+  --color-danger: #d9534f;
+  --color-profit: #3ddc84;
+  --color-loss: #ff5c5c;
+  --color-card: #fdfdfb;
+  --color-card-back: #2b4c9a;
+  --color-suit-spade: #1b1b1b;
+  --color-suit-heart: #d0312d;
+  --color-suit-diamond: #1f6fd1;
+  --color-suit-club: #1e8a3c;
+  --color-chip: #e6b33c;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --shadow-1: 0 2px 6px rgba(0,0,0,.35);
+  --shadow-2: 0 6px 24px rgba(0,0,0,.45);
+  --glow-active: 0 0 0 3px var(--color-accent), 0 0 18px var(--color-accent);
+  --font-base: 14px;
+  --font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", system-ui, sans-serif;
+  --dur-deal: 200ms;
+  --dur-chip: 300ms;
+  --dur-fade: 2000ms;
+  --card-w: 46px;
+  --card-h: 66px;
+}

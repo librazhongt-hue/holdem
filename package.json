@@ -1,0 +1,38 @@
+{
+  "name": "holdem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "sim": "tsx scripts/simulate.ts",
+    "e2e": "node scripts/e2e.mjs",
+    "bench": "tsx scripts/bench.ts",
+    "e2e:online": "node scripts/e2e-online.mjs",
+    "build:single": "tsc --noEmit && vite build -c vite.single.config.ts && cp dist-single/index.html ../holdem-play.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "peerjs": "^1.5.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "node-turn": "^0.0.6",
+    "peer": "^1.0.2",
+    "playwright-core": "^1.64.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21",
+    "vite-plugin-singlefile": "^2.3.4",
+    "vitest": "^2.1.9"
+  },
+  "type": "module"
+}

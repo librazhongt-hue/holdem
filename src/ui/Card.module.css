@@ -1,0 +1,10 @@
+.card { width: var(--card-w); height: var(--card-h); border-radius: var(--radius-sm); background: var(--color-card); box-shadow: var(--shadow-1); display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 700; animation: deal var(--dur-deal) ease-out; }
+.small { --card-w: 34px; --card-h: 48px; font-size: 12px; }
+.rank { font-size: 1.25em; line-height: 1; }
+.suit { font-size: 1.35em; line-height: 1; }
+.back { background: repeating-linear-gradient(45deg, var(--color-card-back), var(--color-card-back) 4px, #3a5fb5 4px, #3a5fb5 8px); border: 2px solid #fff; }
+.spade { color: var(--color-suit-spade); }
+.heart { color: var(--color-suit-heart); }
+.diamond { color: var(--color-suit-diamond); }
+.club { color: var(--color-suit-club); }
+@keyframes deal { from { transform: translateY(-20px); opacity: 0; } to { transform: none; opacity: 1; } }
